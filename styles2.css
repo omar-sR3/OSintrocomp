@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: "Classroom Personal Use";
+    src: url("fonts/Classroom Personal Use.ttf");
+}
+
+.MyFont2 {
+    font-family: "Classroom Personal Use";
+}
+
+
+.filter {
+  filter: url("#turb");
+}
+
+.fontfilter {
+    filter: url("#turb");
+    font-family: "Classroom Personal Use";
+    text-align: center;
+    font-size: 3rem;
+    color: var(--sitered);
+}
+
+:root {
+    --sitered: #ffffff;
+}
+
+body {
+  background-image: url("images/tile2.jpg");
+  background-repeat: repeat;  /* This is the default behavior */
+  background-size: 20%;
+}
